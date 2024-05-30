@@ -1,0 +1,185 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import Banner from '../components/Banner.astro';
+import Feature from '../components/Feature.astro';
+import Portfolio from '../components/Portfolio.astro';
+import PromoBanner from '../components/PromoBanner.astro';
+import Standar from '../components/Standar.astro';
+import Integrations from '../components/Integrations.astro';
+import Navbar from '../components/Navbar.astro';
+import { Icon } from 'astro-iconify';
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="page-wrapper">
+		<div data-animation="default" class="nav_component w-nav" data-easing2="ease" data-easing="ease"
+			data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
+			<PromoBanner />
+			<div class="relative">
+				<div class="padding-global">
+					<Navbar />
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="main-wrapper">
+			<div class="section_hero gradient-bg-home">
+				<div class="grey-layer"></div>
+				<div class="padding-global">
+					<div class="container-large">
+						<div class="padding-section-large is-home-hero">
+							<div class="hero_wrapper">
+								<h1 class="is-h1 is-centre">Use your skills augmented by AI <span
+										class="text-is-gradient">and make it possible!</span></h1>
+								<div class="homepage-hero-subtext is-centre top-margin-30">A set of
+									AI-driven tools that automate and scale your business, enabling you to focus on
+									what really matters: <strong>Your Growth</strong></div>
+								<div class="button-wrapper top-margin-32"><a href="/contact"
+										class="button w-inline-block">
+										<div class="button-text">Contact Us</div>
+									</a>
+									<div id="try-enterpret-btn" class="button no-gradient">
+										<div class="button-text">Take Product Tour ▶</div>
+									</div><a href="https://app.storylane.io/share/sc0am5elax5a" target="_blank"
+										class="button-wrapper-learn-more hide w-inline-block">
+										<div class="learn-more-text hide">Try IndieCloud</div><img
+											src="https://assets-global.website-files.com/65030bfd09557ada51fe30e2/6504228dbca838eb08a22f91_Frame%20(2).webp"
+											loading="lazy" alt="" width="16" class="image hide" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fold" class="section_logos">
+				<div class="padding-global">
+					<div class="container-large">
+						<div class="padding-for-logo-section">
+							<div class="logo-outer-wrapper">
+								<div class="text-medium-16 is-centre">Sponsored by:</div>
+								<div class="col center invert"><img src='/globant.svg' class="x12" /></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="section_image">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-extra-large hide">
+					<div class="homepage-big-image hide-on-tablet-mobile hide"></div>
+					<div class="homepage-big-image hide-on-tablet-mobile"
+						data-w-id="261ab572-687e-cc91-495e-125a7c115cd0" data-animation-type="lottie"
+						data-src="https://assets-global.website-files.com/65030bfd09557ada51fe30e2/651699ce75977073cb32b86f_Animation%20-%20Enterpret%20website%20v3.json"
+						data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg"
+						data-default-duration="10" data-duration="0"></div>
+				</div>
+				<div class="divider-line hide-on-tablet-mobile"></div>
+			</div>
+		</div>
+	</div>
+	<div id="enterpretAdvantage" class="section_cta">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-extra-large">
+					<div class="cta-card is-centre">
+						<div class="cta-card-left"></div>
+						<div class="cta-card-right">
+							<div class="blue-text">The Indie Experience</div>
+							<div class="white-text-for-cta-card top-margin-10">Builders thrive for the best way to
+								achieve their goals, at IndieCloud we provide you with a tailored set of AI tools,
+								which automates and scales your business, augmenting your capabilities
+								so you can focus on what really matters: <strong>Your Growth</strong></div>
+							<a href="/cta" class="button-wrapper-learn-more is-blue top-margin-10 w-inline-block">
+								<div class="get-started-text">Get Started</div><img
+									src="/mage.png"
+									loading="lazy" alt="" width="16" class="image" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="divider-line"></div>
+			</div>
+		</div>
+	</div>
+	<section id="fold-2" class="section_features">
+		<div id="customerFeedback" class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-extra-large">
+					<h2 class="homepage-h2">Leading data convergence and systems integration to get the most of Deep
+						Learning Models
+					</h2>
+					<div class="features-wrapper top-margin-60">
+					<Portfolio />
+				</div>
+				<div class="divider-line"></div>
+			</div>
+		</div>
+	</section>
+	<div class="section_features-2">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-extra-large">
+					<h2 class="homepage-h2">Increase your productivity and engage your audience</h2>
+						<Feature />
+						</div>
+					</div>
+				</div>
+				<div class="divider-line"></div>
+			</div>
+		</div>
+	</div>
+	<div class="section_integration">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-extra-large">
+					<div class="features-wrapper is-0">
+						<Integrations />
+				</div>
+				<div class="divider-line"></div>
+			</div>
+		</div>
+	</div>
+	<div class="section_integration">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-extra-large">
+					<div class="features-wrapper is-0">
+						<Standar />
+					</div>
+				</div>
+				<div class="divider-line"></div>
+			</div>
+		</div>
+	</div>
+	<div class="section_banner">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="relative">
+					<div class="padding-section-extra-large">
+						<Banner/>					</div>
+					<div class="footer-gradient is-solutions"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section_footer top-border">
+		<div class="padding-global">
+			<div class="container-large">
+				<div class="padding-section-large">
+					<div class="footer_wrapper">
+					<Footer />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</main>
+	</div>
+</Layout>
+
+
+</style>
